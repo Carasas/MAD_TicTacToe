@@ -44,11 +44,11 @@ const Layout = StyleSheet.create({
   },
   Area: {
     position: 'absolute',
-    top: '20%', // 20% from the top to center vertically
-    left: '10%', // 10% from the left to center horizontally
+    top: '20%',
+    left: '10%',
     width: '80%',
     height: '60%',
-    justifyContent: 'center', // Center content vertically within the message box
+    justifyContent: 'center',
     alignItems: 'center', 
     borderRadius: 20,
     padding: 25,

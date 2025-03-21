@@ -1,9 +1,9 @@
 
 // Import
-import React, { useRef, useEffect } from 'react';
-import { StyleSheet, SafeAreaView, View, Text, Animated, Dimensions } from 'react-native';
+import React from 'react';
+import { SafeAreaView, View } from 'react-native';
 
-// Liobrary
+// Library
 import { Layout, Theme } from '../Modules/Theme.js';
 import Message from '../Modules/Message.js';
 import TButton from '../Modules/TButton.js';

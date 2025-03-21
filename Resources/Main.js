@@ -34,5 +34,5 @@ function Main() {
 
 }
 
-// export
+// Export
 export default Main;
