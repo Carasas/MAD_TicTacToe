@@ -6,11 +6,13 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 // Pages
 import Home from './Pages/Home.js';
+import Load from './Pages/Load.js';
 import Rules from './Pages/Rules.js';
 import Credits from './Pages/Credits.js';
 
 const screens = [
   { name:'Home', component: Home },
+  { name:'Load', component: Load },
   { name:'Rules', component: Rules },
   { name:'Credits', component: Credits },
 ];
@@ -34,5 +36,5 @@ function Main() {
 
 }
 
-// Export
+// export
 export default Main;

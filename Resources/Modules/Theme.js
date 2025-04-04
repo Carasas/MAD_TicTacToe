@@ -80,6 +80,24 @@ const Layout = StyleSheet.create({
     alignItems: 'center',
   },
   Row: { flexDirection: 'row', },
+  Margin: {
+    margin: 50,
+    Top:{
+      marginTop: 50,
+    },
+    Bottom:{
+      marginBottom: 25,
+    },
+  },
+  Padding: {
+    padding: 25,
+    Top:{
+      paddingTop: 25,
+    },
+    Bottom:{
+      paddingBottom: 25,
+    },
+  },
 });
 
 // Export

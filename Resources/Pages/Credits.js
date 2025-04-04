@@ -1,7 +1,7 @@
 
 // Import
-import React from 'react';
-import { SafeAreaView, View } from 'react-native';
+import React, { useRef, useEffect } from 'react';
+import { StyleSheet, SafeAreaView, View, Text, Animated, Dimensions } from 'react-native';
 
 // Library
 import { Layout, Theme } from '../Modules/Theme.js';
